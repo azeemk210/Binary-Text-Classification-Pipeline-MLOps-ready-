@@ -1,0 +1,60 @@
+# =========================
+# Python cache & compiled
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.env/
+.venv/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+.ipynb 
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE / Editor settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Data files (handled by DVC)
+# =========================
+data/raw/*.csv
+data/processed/*.csv
+
+# =========================
+# Models (handled by DVC)
+# =========================
+models/
+*.pkl
+
+# =========================
+# DVC cache (never commit)
+# =========================
+.dvc/cache/
+
+# =========================
+# Experiments / temp
+# =========================
+experiments/
+tmp/
