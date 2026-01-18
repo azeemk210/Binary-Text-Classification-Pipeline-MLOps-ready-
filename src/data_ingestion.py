@@ -31,7 +31,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
-#https://raw.githubusercontent.com/azeemk210/Binary-Text-Classification-Pipeline-MLOps-ready-/refs/heads/main/data/raw/spam.csv
+#https://raw.githubusercontent.com/saramaryam2005/Datasets/refs/heads/main/spam.csv
 
 def load_data(data_url: str) -> pd.DataFrame:
     """Load the data from CSV file."""
@@ -78,7 +78,7 @@ def save_data(train_data: pd.DataFrame, test_data: pd.DataFrame, data_path: str)
 def main():
     try:
         test_size = 0.2
-        data_path = 'https://raw.githubusercontent.com/azeemk210/Binary-Text-Classification-Pipeline-MLOps-ready-/refs/heads/main/data/raw/spam.csv'
+        data_path = 'https://raw.githubusercontent.com/saramaryam2005/Datasets/refs/heads/main/spam.csv'
         df = load_data(data_url=data_path)
         final_df = preprocess_data(df)
         train_data, test_data = train_test_split(final_df, test_size=test_size, random_state=2)
