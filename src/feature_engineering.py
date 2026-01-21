@@ -2,8 +2,8 @@ import pandas as pd
 import os
 import logging
 from sklearn.feature_extraction.text import TfidfVectorizer
-# Ensure the "logs" directory exists
 
+# Ensure the "logs" directory exists
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok=True)
 
@@ -15,8 +15,8 @@ console_handler = logging.StreamHandler()
 console_handler.setLevel('DEBUG')
 
 log_file_path = os.path.join(log_dir, 'feature_engineering.log')
-file_handler = logging.StreamHandler()
-file_handler.setLevel('DEBUG')
+file_handler = logging.FileHandler(log_file_path)
+file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 console_handler.setFormatter(formatter)
