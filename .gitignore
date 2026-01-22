@@ -40,8 +40,9 @@ Thumbs.db
 # Data files (handled by DVC)
 # =========================
 #data/raw/*.csv
-data/interim/*.csv
-data/raw/*.csv
+data
+models
+reports
 
 # =========================
 # Models (handled by DVC)
@@ -63,3 +64,4 @@ tmp/
 
 projectflow.txt
 flow.txt
+git_commands.txt
