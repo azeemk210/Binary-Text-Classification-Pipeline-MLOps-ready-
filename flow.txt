@@ -1,0 +1,95 @@
+# All thanks to VIKASH Das
+""" https://www.youtube.com/watch?v=SMt3T-K2b_4 """
+
+
+clone repository from github
+added readme & gitignore
+created data directory and added data url from saramaryam2005/dataset github (spam.csv)
+create venv : python -m venv venv,  .\venv\Scripts\Activate.ps1
+creat src/data_ingestion.py
+create src/data_preprocessing.py
+created src/feature_engineering.py
+created src/model_building.py
+created src/model_evaluation.py
+add data, model, reports directories to .gitignore file
+add, commit, push to git
+
+
+setting up dvc pipeline(without params)
+1. create dvc.yaml file and add stages to it.
+2. dvc init then do dvc repro to test the pipeline automation. (check, dvc dag)
+3. now git add, commit, push
+
+
+setting up dvc pipeline(with params)
+1. add params.yaml file
+2. add the params setup (mentioned below)
+3. do dvc repro again to test pipeline along with params
+4. Now git add, commit, push
+
+
+Experiments with DVC live:
+1. pip install dvclive
+2. Add dvclive code block which is mentioned below
+3. Do "dvc exp run", it will create a new dvc.yaml(if not there) and dvclive directory (each run will be considered as an Experiment by dvc)
+4. Do "dvc exp show" on terminal to see the Experiment or use extension on VSCode (install dvc extension)
+5. Do "dvc exp remove {exp-name}" to remove exp(optional) or "dvc exp apply {exp-name} to reproduce prev exp
+6. change parameters, re run code to produce new Experiment
+7. Now git add, commit, push
+
+
+
+PARAMS Setup:
+___________________________________________________________________________________________________
+
+params.yaml setup
+1. import yaml
+2. add func:
+def load_params(params_path: str)-> dict:
+    """Load parameters from a YAML file."""
+    try:    
+        with open(params_path, 'r) as file:
+            params = yaml.safe_load(file)
+        logger.debug('parameters retrieved from %s', params_path)
+        return params
+    except FileNotFoundError:
+        logger.error('Parameters file not found at %s', params_path)
+        raise
+    except yaml.YAMLError as e:
+        logger.error('Error parsing YAML file: %s',e)
+        raise
+    except Exception as e:
+        logger.error('Unexpected error loading parameters from %s: %s', params_path, str(e))
+        raise
+
+3. add to main():
+#data_ingestion
+params = load_params(params_path='params.yaml')
+test_size = params['data_ingestion']['test_size']
+
+#feature_engineering
+params = load_params(params_path='params.yaml')
+max_features = params['feature_engineering']['max_features']
+
+#model_building
+params = load_params(params_path='params.yaml')['model_building']
+
+
+
+___________________________________________________________________________________________________
+
+
+DVC Live setup: in model_evaluation.py
+___________________________________________________________________________________________________
+1. import dvclive, yaml
+    from dvclive import Live
+    import yaml
+2. add the load_params function and initiate "params" var in main
+3. add below code block to main
+with Live(save_dvc_exp=True) as live:
+    live.log_metric('accuracy', accuracy_score(y_test, y_test))
+    live.log_metric('precision', precision_score(y_test, y_test))
+    live.log_metric('recall', recall_score(y_test, y_test))
+
+    live.log_params(params)
+___________________________________________________________________________________________________
