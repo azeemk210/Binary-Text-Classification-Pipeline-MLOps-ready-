@@ -28,3 +28,23 @@
 2026-01-23 09:54:55,582 - data_preprocessing - DEBUG - Duplicate rows removes
 2026-01-23 09:54:58,080 - data_preprocessing - DEBUG - Text column transformed
 2026-01-23 09:54:58,092 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
+2026-01-23 10:23:17,434 - data_preprocessing - DEBUG - Data loaded properly
+2026-01-23 10:23:17,436 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-01-23 10:23:17,438 - data_preprocessing - DEBUG - Target column encoded
+2026-01-23 10:23:17,440 - data_preprocessing - DEBUG - Duplicate rows removes
+2026-01-23 10:23:40,194 - data_preprocessing - DEBUG - Text column transformed
+2026-01-23 10:23:40,194 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-01-23 10:23:40,197 - data_preprocessing - DEBUG - Target column encoded
+2026-01-23 10:23:40,198 - data_preprocessing - DEBUG - Duplicate rows removes
+2026-01-23 10:23:42,107 - data_preprocessing - DEBUG - Text column transformed
+2026-01-23 10:23:42,116 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
+2026-01-23 10:27:37,474 - data_preprocessing - DEBUG - Data loaded properly
+2026-01-23 10:27:37,474 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-01-23 10:27:37,477 - data_preprocessing - DEBUG - Target column encoded
+2026-01-23 10:27:37,480 - data_preprocessing - DEBUG - Duplicate rows removes
+2026-01-23 10:27:49,486 - data_preprocessing - DEBUG - Text column transformed
+2026-01-23 10:27:49,487 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2026-01-23 10:27:49,489 - data_preprocessing - DEBUG - Target column encoded
+2026-01-23 10:27:49,490 - data_preprocessing - DEBUG - Duplicate rows removes
+2026-01-23 10:27:54,511 - data_preprocessing - DEBUG - Text column transformed
+2026-01-23 10:27:54,519 - data_preprocessing - DEBUG - Processed data saved to ./data\interim

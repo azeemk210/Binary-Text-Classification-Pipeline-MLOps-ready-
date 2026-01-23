@@ -40,3 +40,46 @@
 2026-01-23 09:55:05,417 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
 2026-01-23 09:55:05,432 - model_building - DEBUG - Model evaluation metrics calculated
 2026-01-23 09:55:05,434 - model_building - DEBUG - Metrics saved to reports/metrics.json
+2026-01-23 10:23:47,082 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 10:23:47,095 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4670, 31)
+2026-01-23 10:23:47,097 - model_building - DEBUG - Initializing RandomForestm odel with parameters: {'n_estimators': 20, 'random_state': 2}
+2026-01-23 10:23:47,097 - model_building - DEBUG - Model training started with 4670 samples
+2026-01-23 10:23:47,185 - model_building - DEBUG - Model training completed
+2026-01-23 10:23:47,187 - model_building - DEBUG - Model saved to models/model.pkl
+2026-01-23 10:23:49,731 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 10:23:49,847 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-23 10:23:49,851 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-23 10:23:49,865 - model_building - DEBUG - Model evaluation metrics calculated
+2026-01-23 10:23:50,350 - model_building - DEBUG - Metrics saved to reports/metrics.json
+2026-01-23 10:24:24,335 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 10:24:24,444 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-23 10:24:24,448 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-23 10:24:24,461 - model_building - DEBUG - Model evaluation metrics calculated
+2026-01-23 10:24:24,903 - model_building - DEBUG - Metrics saved to reports/metrics.json
+2026-01-23 10:24:43,347 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 10:24:43,465 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-23 10:24:43,471 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-23 10:24:43,484 - model_building - DEBUG - Model evaluation metrics calculated
+2026-01-23 10:24:44,021 - model_building - DEBUG - Metrics saved to reports/metrics.json
+2026-01-23 10:27:01,682 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 10:27:01,697 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 36)
+2026-01-23 10:27:01,698 - model_building - DEBUG - Initializing RandomForestm odel with parameters: {'n_estimators': 22, 'random_state': 2}
+2026-01-23 10:27:01,699 - model_building - DEBUG - Model training started with 4152 samples
+2026-01-23 10:27:01,866 - model_building - DEBUG - Model training completed
+2026-01-23 10:27:01,870 - model_building - DEBUG - Model saved to models/model.pkl
+2026-01-23 10:27:04,782 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 10:27:04,909 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-23 10:27:04,916 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-23 10:27:04,935 - model_building - DEBUG - Model evaluation metrics calculated
+2026-01-23 10:27:05,425 - model_building - DEBUG - Metrics saved to reports/metrics.json
+2026-01-23 10:28:00,181 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 10:28:00,197 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (3654, 51)
+2026-01-23 10:28:00,198 - model_building - DEBUG - Initializing RandomForestm odel with parameters: {'n_estimators': 25, 'random_state': 2}
+2026-01-23 10:28:00,199 - model_building - DEBUG - Model training started with 3654 samples
+2026-01-23 10:28:00,318 - model_building - DEBUG - Model training completed
+2026-01-23 10:28:00,322 - model_building - DEBUG - Model saved to models/model.pkl
+2026-01-23 10:28:02,742 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 10:28:02,884 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-23 10:28:02,895 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-23 10:28:02,918 - model_building - DEBUG - Model evaluation metrics calculated
+2026-01-23 10:28:03,389 - model_building - DEBUG - Metrics saved to reports/metrics.json
