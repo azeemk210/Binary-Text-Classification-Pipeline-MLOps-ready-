@@ -1,0 +1,6 @@
+2026-01-17 23:56:26,484 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/azeemk210/Binary-Text-Classification-Pipeline-MLOps-ready-/refs/heads/main/data/raw/spam.csv
+2026-01-17 23:56:26,487 - data_ingestion - DEBUG - Data processing complete
+2026-01-17 23:56:26,501 - data_ingestion - DEBUG - Train and Test data saved to ./data\raw
+2026-01-18 11:33:43,229 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/saramaryam2005/Datasets/refs/heads/main/spam.csv
+2026-01-18 11:33:43,238 - data_ingestion - DEBUG - Data processing complete
+2026-01-18 11:33:43,257 - data_ingestion - DEBUG - Train and Test data saved to ./data\raw

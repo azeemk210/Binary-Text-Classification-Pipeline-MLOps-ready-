@@ -1,0 +1,13 @@
+2026-01-22 21:18:54,684 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 46)
+2026-01-22 21:18:54,687 - model_building - DEBUG - Initializing RandomForestm odel with parameters: {'n_estimators': 25, 'random_state': 2}
+2026-01-22 21:18:54,687 - model_building - DEBUG - Model training started with 4152 samples
+2026-01-22 21:18:54,809 - model_building - DEBUG - Model training completed
+2026-01-22 21:18:54,813 - model_building - DEBUG - Model saved to models/model.pkl
+2026-01-22 21:40:20,958 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-22 21:40:20,970 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-22 21:40:20,987 - model_building - ERROR - Error during model evaluation cannot access local variable 'auc' where it is not associated with a value
+2026-01-22 21:40:20,988 - model_building - ERROR - Failed to complete the model evaluation cannot access local variable 'auc' where it is not associated with a value
+2026-01-22 21:41:48,383 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-22 21:41:48,392 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-22 21:41:48,415 - model_building - DEBUG - Model evaluation metrics calculated
+2026-01-22 21:41:48,416 - model_building - DEBUG - Metrics saved to reports/metrics.json
