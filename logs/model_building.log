@@ -20,3 +20,23 @@
 2026-01-23 09:15:24,416 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
 2026-01-23 09:15:24,434 - model_building - DEBUG - Model evaluation metrics calculated
 2026-01-23 09:15:24,436 - model_building - DEBUG - Metrics saved to reports/metrics.json
+2026-01-23 09:53:02,141 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 09:53:02,157 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 51)
+2026-01-23 09:53:02,158 - model_building - DEBUG - Initializing RandomForestm odel with parameters: {'n_estimators': 25, 'random_state': 2}
+2026-01-23 09:53:02,159 - model_building - DEBUG - Model training started with 4152 samples
+2026-01-23 09:53:02,265 - model_building - DEBUG - Model training completed
+2026-01-23 09:53:02,268 - model_building - DEBUG - Model saved to models/model.pkl
+2026-01-23 09:53:04,414 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-23 09:53:04,424 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-23 09:53:04,442 - model_building - DEBUG - Model evaluation metrics calculated
+2026-01-23 09:53:04,444 - model_building - DEBUG - Metrics saved to reports/metrics.json
+2026-01-23 09:55:02,791 - model_building - DEBUG - parameters retrieved from params.yaml
+2026-01-23 09:55:02,810 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4413, 46)
+2026-01-23 09:55:02,813 - model_building - DEBUG - Initializing RandomForestm odel with parameters: {'n_estimators': 20, 'random_state': 2}
+2026-01-23 09:55:02,814 - model_building - DEBUG - Model training started with 4413 samples
+2026-01-23 09:55:02,937 - model_building - DEBUG - Model training completed
+2026-01-23 09:55:02,942 - model_building - DEBUG - Model saved to models/model.pkl
+2026-01-23 09:55:05,409 - model_building - DEBUG - Model loaded from ./models/model.pkl
+2026-01-23 09:55:05,417 - model_building - DEBUG - Data loaded from the CSV file ./data/processed/test_tfidf.csv
+2026-01-23 09:55:05,432 - model_building - DEBUG - Model evaluation metrics calculated
+2026-01-23 09:55:05,434 - model_building - DEBUG - Metrics saved to reports/metrics.json

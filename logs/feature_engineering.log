@@ -8,3 +8,15 @@
 2026-01-23 09:15:04,803 - feature_engineering - DEBUG - Bag of words applied and data transformed
 2026-01-23 09:15:04,892 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
 2026-01-23 09:15:04,916 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2026-01-23 09:52:59,904 - feature_engineering - DEBUG - parameters retrieved from params.yaml
+2026-01-23 09:52:59,913 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-01-23 09:52:59,917 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-01-23 09:53:00,001 - feature_engineering - DEBUG - Bag of words applied and data transformed
+2026-01-23 09:53:00,102 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-01-23 09:53:00,129 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2026-01-23 09:55:00,205 - feature_engineering - DEBUG - parameters retrieved from params.yaml
+2026-01-23 09:55:00,213 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-01-23 09:55:00,216 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-01-23 09:55:00,275 - feature_engineering - DEBUG - Bag of words applied and data transformed
+2026-01-23 09:55:00,391 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-01-23 09:55:00,411 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
